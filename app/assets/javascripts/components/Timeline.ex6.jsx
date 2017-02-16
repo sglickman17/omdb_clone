@@ -5,11 +5,11 @@ class Timeline extends React.Component {
 
   render () {
     return(
-      <section id="tweets-container">
+      <section id="tweet-container">
         <h3>Movie List</h3>
         <ul>
         {
-          this.props.tweetData.map((movieInfo, i) =>{
+          this.props.movieData.map((movieInfo, i) =>{
             return <Movie movie={movieInfo} key={i} />
           })
         }
