@@ -177,13 +177,13 @@ p {
 }
 
 #search-form {
+  position: relative;
   display: inline-block;
 
 }
 
 #search-form i {
   font-size: 33px;
-  right: 410px;
   color: #546775
 }
 
